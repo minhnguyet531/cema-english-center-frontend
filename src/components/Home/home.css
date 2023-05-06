@@ -1,0 +1,81 @@
+.container {
+  height: 100vh;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+.vector-graphics {
+  filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.09));
+  -webkit-filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.09));
+  animation: vectorAnimation 1.5s infinite ease-in-out alternate;
+  -webkit-animation: vectorAnimation 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes vectorAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.brandBanner {
+  font-size: 3rem;
+  color: #fff;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+
+.brandBanner > svg:hover {
+  color: rgb(255, 221, 0);
+}
+
+.container2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 video {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  width: 60%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container2 video {
+    width: 100%;
+  }
+}
+
+.course {
+  width: 250px;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.course:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}

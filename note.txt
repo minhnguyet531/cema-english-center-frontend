@@ -1,0 +1,13 @@
+npm i axios chart.js react-chartjs-2 protected-router-react react-hot-toast react-icons react-redux @reduxjs/toolkit
+#FFEB00
+
+https://www.behance.net/gallery/137674189/M374_Online-Learning-Illustrations ===> Image
+
+-	Tên trung tâm: Trung tâm anh ngữ Cema
+-	Tên tiếng anh: Cema English Center
+-	Tên viết tắt: Cema
+-	Địa chỉ:
+-	Số điện thoại:
+-	Email: cemagroup2020@gmail.com
+-	Fanpage: https://www.facebook.com/CEMAGroup2020
+-	Slogan: Constant Effort Make Achievement - Dành Sự Nỗ Lực Liên Tục Để Đạt Thành Tựu
